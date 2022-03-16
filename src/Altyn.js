@@ -83,12 +83,14 @@ const Altyn = () => {
 	// update account, will cause component re-render
 	const accountChangedHandler = (newAccount) => {
 		console.log('accountChangedHandler');
-		if (Array.isArray(newAccount)) {
-			setDefaultAccount(newAccount[0]);
-		}
-		else {
-			setDefaultAccount(newAccount);
-		}
+		if (Array.isArray(newAccount))
+			{
+				setDefaultAccount(newAccount[0]);
+			}
+		else
+			{
+				setDefaultAccount(newAccount);
+			}
 		updateEthers();
     setConnButtonText(newAccount.toString());
 	}
@@ -165,20 +167,26 @@ const Altyn = () => {
 
 		if (event == null) return;
 
-		if (event.target.id == 'amount'){
-			let newValue = values.floatValue / saleRate;
-			setSwapFrom(values.floatValue);
-			setSwapTo(newValue);
-		} else if (event.target.id == 'remount') {
-			let newValue = values.floatValue * saleRate;
-			setSwapTo(values.floatValue);
-			setSwapFrom(newValue);
-		}
+		if (event.target.id == 'amount')
+			{
+				let newValue = values.floatValue / saleRate;
+				setSwapFrom(values.floatValue);
+				setSwapTo(newValue);
+			}
+		else if (event.target.id == 'remount')
+			{
+				let newValue = values.floatValue * saleRate;
+				setSwapTo(values.floatValue);
+				setSwapFrom(newValue);
+			}
 	}
 
 	// listen for account changes
-	window.ethereum.on('accountsChanged', accountChangedHandler);
-	window.ethereum.on('chainChanged', (_chainId) => chainChangedHandler(_chainId));
+	if (window.ethereum)
+		{
+			window.ethereum.on('accountsChanged', accountChangedHandler);
+			window.ethereum.on('chainChanged', (_chainId) => chainChangedHandler(_chainId));
+		}
 
 	useEffect(() => {
 		if (contractSale != null) {
