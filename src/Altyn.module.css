@@ -32,8 +32,9 @@
 .x1{display: flex; align-content: center; align-items: center; text-decoration: none; font-weight:600}
 .x3{background: transparent; border: 0; color:#f4f4f4; font-size: 13px; font-weight: 100;margin:0 auto;}
 
+.main{}
 /*SWAP BAR*/
-.swap__container{display:flex;flex-direction:column;width:100%;padding:60px 16px 0;-webkit-box-align:center;z-index:1;position:absolute;align-content:center;justify-content:center;align-items:center;height:inherit;padding-top:0}
+.swap__container{display:flex;flex-direction:column;width:100%;padding:60px 16px 0;-webkit-box-align:center;z-index:1;position:relative;align-content:center;justify-content:center;align-items:center;height:inherit;padding-top:0;}
 .swap__container{height:initial!important}
 .MainDescriptor{position:relative;letter-spacing:1px;line-height:2rem;color:#f4f4f4;font-size:10px;padding:.3rem;padding-top:.3rem;width:auto;text-align:center;margin:2rem;margin-top:2rem;top:0;padding-top:0;margin-top:0;display:none!important}
 .swap__mainfield{position:relative;width:100%;padding-top:1rem;padding-bottom:1rem;box-shadow:2px 1px 10rem #d3980e!important;max-width:480px;width:100%;background:rgba(41,43,46,.2);background-image:none;animation:animateGlow 1s ease 1;color:#fff;line-height:1.5;padding:1.875rem 1rem;padding-right:1rem;padding-left:1rem;padding-right:1rem;padding-left:1rem;border-radius:.4375rem;border:1px #d3980e solid;transition:.2s;padding-top:0}
@@ -140,12 +141,12 @@
 
 
 
-.footerDescriptor{display:flex;z-index:99999999999999;height:5rem;width:100%;bottom:0!important;align-content:center;justify-content:center;align-items:center;position:static;padding-left:2rem}
+.footerDescriptor{display:flex;z-index:99999999999999;height:5rem;width:100%;bottom:0!important;align-content:center;justify-content:center;align-items:center;position:static;}
 .footerDescriptor ul{display:flex;height:100%;margin-top:0;opacity:.8}
 .footerIcon{width:100%;display:flex;align-content:center;justify-content:center;align-items:center;z-index:99999999999999}
 .footerIcon ul{width:100%;display:flex;justify-content:flex-end;padding:0;margin:0;opacity:.5}
 .footerIcon ul li:hover{padding-top:2px;opacity:.9;color:#78d246;box-shadow:2px 1px 10rem #78d246!important;transition:.2s}
 .footerIcon ul li{color:#bfbfbf;display:flex;border-radius:50%;width:4rem;height:4rem;text-align:center;margin-left:1rem;font-size:20px;justify-content:center;align-content:center;align-items:center}
-.footer{position: absolute;bottom: 0;display: flex;justify-content: center;width: 100%;}
+.footer{position: relative;bottom: 0;justify-content: center;width: 100%;padding-top: 10px;}
 .footer img {width: 24px;height: 24px}
 .footer a{text-decoration:none!important;font-size:24px;color:#fff!important}

@@ -215,7 +215,7 @@ const Altyn = () => {
 	</form>
 	*/
   return (
-    <div>
+    <div className={styles.main}>
 
       <div className={styles.header}>
         <div className={styles.header__wrapper}>
