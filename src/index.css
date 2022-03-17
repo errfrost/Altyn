@@ -21,7 +21,7 @@ code {
 body,html{
   margin:0;padding:0;height:100%;color:#fff;background:radial-gradient(ellipse at right,#1B2735 0%,#090A0F 100%);margin:0;
   background-image:url(./img/bg.jpg);
-  background-size:cover;background-repeat:no-repeat;background-position:center;background-color:#000;background-attachment:scroll
+  background-size:cover;background-repeat:no-repeat;background-position:center;background-color:#000;background-attachment:fixed;
 }
 
 html{min-height:100%;font-size:16px;font-variant:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
@@ -29,5 +29,5 @@ html{min-height:100%;font-size:16px;font-variant:none;-webkit-font-smoothing:ant
 }
 
 .header{
-  position:relative!important
+  position:relative!important;
 }
