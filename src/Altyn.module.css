@@ -67,7 +67,7 @@
         flex-wrap: nowrap;-webkit-box-align: center;align-items: center;cursor: pointer;position: relative;z-index: 1;will-change: transform;font-size: 16px;box-sizing: border-box;
         margin: 0;min-width: 0;appearance: none;background: #d3980e !important;line-height: 1.5;padding: .875rem 1rem;padding-right: 1rem;padding-left: 1rem;
         border-radius: 5px;transition: .2s;border: 0 !important;animation: pulse;animation-duration: 1s;animation-iteration-count: infinite;
-        box-shadow: rgba(19, 172, 232, 0.99) 0px 0px 5px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.01) 0px 24px 32px}
+        box-shadow: rgba(19, 172, 232, 0.99) 0px 0px 5px, rgba(0, 0, 0, 0.04) 0px 4px 8px, rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.01) 0px 24px 32px;font-family:tahoma;}
 .Approve:hover{transition:.2s;transition-property:background-color;background-color:#2da13f!important}
 .change__container{width:100%; z-index: 999999;font-size:14px;}
 
