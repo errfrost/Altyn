@@ -30,7 +30,7 @@
 .onlinemarker2{width:12px;height:12px;background:0 0;border-radius:50%;display:none;border:2px #2da17e solid;display: inline-block;margin-right: 0.2rem;margin-top: 0.1rem;width: 5px;height: 5px;padding: 4px}
 
 .x1{display: flex; align-content: center; align-items: center; text-decoration: none; font-weight:600}
-.x3{background: transparent; border: 0; color:#f4f4f4; font-size: 13px; font-weight: 100;margin:0 auto;}
+.x3{background: transparent; border: 0; color:#f4f4f4; font-size: 13px; font-weight: 100;margin:0 auto;font-family:tahoma;}
 
 .main{}
 /*SWAP BAR*/
@@ -57,7 +57,7 @@
 .swapp_curr__inbutBTN2{text-align:center;text-decoration:none;display:flex;flex-wrap:nowrap;position:relative;z-index:1;will-change:transform;transition:transform 450ms ease 0s;transform:perspective(1px) translateZ(0px);-webkit-box-align:center;align-items:center;font-size:24px;font-weight:500;background-color:#191b1f;color:#fff;border-radius:16px;box-shadow:rgb(0 0 0/8%) 0 6px 10px;outline:none;cursor:pointer;user-select:none;border:none;height:2.4rem;width:initial;padding:0 8px;-webkit-box-pack:justify;justify-content:space-between;margin-right:12px;border:1px #d3980e91 solid!important;transition:.2s}
 .swap__curr__input__line__nametoken{display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:justify;justify-content:space-between;width:100%}
 .swap__curr__input__line__nametoken img{width:28px;height:28px}
-.nameToken{width:24px;height:24px;box-shadow:rgb(0 0 0/8%) 0 6px 10px;border-radius:24px;margin-right: 0.5rem;margin-left: 0.5rem}
+.nameToken{width:24px;height:24px;box-shadow:rgb(0 0 0/8%) 0 6px 10px;border-radius:24px;margin-right: 0.5rem;margin-left: 0.5rem; font-family:tahoma;}
 .swap__curr__token__input{color:#fff;width:0;position:relative;font-weight:500;outline:none;border:none;flex:1 1 auto;background:0 0!important;font-size:24px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0;appearance:textfield;text-align:right}
 .swap__curr_area_info{display:flex;flex-flow:row nowrap;-webkit-box-align:center;align-items:center;color:#fff;font-size:.75rem;line-height:1rem;padding:0 1rem 1rem;-webkit-box-pack:end;justify-content:flex-end}
 .swap__curr_area_info{display:none}
