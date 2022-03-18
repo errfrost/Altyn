@@ -14,6 +14,7 @@
 # misc
 /tmp
 /src/json
+/src/css-unused
 .DS_Store
 .env.local
 .env.development.local
