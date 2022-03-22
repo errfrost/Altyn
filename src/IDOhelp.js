@@ -21,7 +21,7 @@ const IDOhelp = () => {
       <div className={styles.swap__container}>
         <h1>4 simple steps to get Altyn Coin</h1>
         <div className={styles.howto}>
-          <h3>Click on th Connect MataMask button</h3>
+          <h3>Click on the Connect MataMask button</h3>
           <img src={require('./img/howto1.png')} />
           <h3>Enter password and choose Binance Smart Chain MainNet account</h3>
           <img src={require('./img/howto2.png')} />
