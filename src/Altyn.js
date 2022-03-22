@@ -321,6 +321,11 @@ const Altyn = () => {
 				        <div id="StatusPush">ALTYN BSC address - {contractAddress}</div>
                 <div id="errMessage"></div>
 			        </div>
+
+							<div className={styles.instructions}>
+				        <a href="/IDOhelp">How to buy Manual</a>
+			        </div>
+
 			      </div>
 		      </div>
 		    </div>
