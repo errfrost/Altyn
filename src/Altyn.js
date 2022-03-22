@@ -228,7 +228,7 @@ const Altyn = () => {
 
           <div className={styles.header__connect_btn} onClick={connectWalletHandler}>
             <div className={styles.onlinemarker2} style={{display: "block"}}></div>
-            <button id="wallet" className={styles.x3}>{connButtonText}</button>
+            <button id="wallet" className={styles.x3} onClick={connectWalletHandler}>{connButtonText}</button>
           </div>
 
         </div>
